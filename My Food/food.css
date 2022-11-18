@@ -1,0 +1,158 @@
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+div{
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar{
+padding-top:25px;
+padding-bottom:60px;
+background-color:white;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.nav_bar{
+display: flex;
+font-size:30px;
+justify-content: space-between;
+}
+
+.three_line {
+  color: black;
+  font-size: 15px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .three_line:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-top:10%;
+}
+  
+.img_one{
+text-align: center;
+}
+
+.img_one:hover{
+  box-shadow: 0 4px   4px  rgba(0, 0, 0, .1),
+  0 1px  6px  rgba(0, 0, 0, .05),
+  0 8px  8px  rgba(0, 0, 0, .1), 
+  0 16px 16px rgba(0, 0, 0, .1), 
+  8px 32px 32px rgba(0, 0, 0, .15), 
+  8px 64px 64px rgba(0, 0, 0, .15); 
+
+}
+.img_text{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding:90px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 16px;    
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color:black;
+  color:#f1f1f1;
+  box-shadow: 0 4px  4px  rgba(0, 0, 0, .1),
+  0 1px  6px  rgba(0, 0, 0, .05),
+  0 8px  8px  rgba(0, 0, 0, .1), 
+  0 16px 16px rgba(0, 0, 0, .1), 
+  8px 32px 32px rgba(0, 0, 0, .15), 
+  8px 64px 64px rgba(0, 0, 0, .15); 
+
+transform: scale(1.05)
+  translateY(-0.5rem);
+}
+
+.btn.active {
+  background-color:black;
+  color: white;
+}
+
+.center_img{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size:20px;
+}
+
+hr{
+width:90%;
+margin: auto;
+}
+
+.footer{
+  color:#f0f9ff;
+  background-color:#282d32;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+ul a {
+  color:inherit;
+  text-decoration:none;
+}
+
+ul a:hover {
+  opacity:0.8;
+}
+ 
+
+.item text{
+  margin-bottom:36px;
+}
+
+.copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+

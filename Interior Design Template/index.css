@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar{
+    background-color: #f44336;
+    padding: 10px 0px;
+    display: block;
+    width: 100%;
+    box-shadow:10px 1px 4px black;
+    position: relative;
+    position: fixed;
+}
+
+#navbar a {
+color:#fff;
+text-decoration: none;
+font-size: 17px;
+padding: 12px 22px;
+}
+  
+#navbar a:hover {
+background-color:#fff;
+color: black;  
+}
+
+#navbar a:first-child{
+background-color:#fff;
+color: black;
+}
+
+#navbar a:first-child:hover {
+background-color:rgb(211, 206, 206);   
+}
+
+.header{
+    padding: 10%;
+    text-align: center;
+    background-color: #f44336;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size:25px;
+    }
+    
+    .but{
+        border: black;
+        background-color:black;
+        color: #fff;
+        padding: 13px 25px;
+    }
+    
+    .but:hover {
+        background-color:rgb(211, 206, 206);   
+    }
+
+    .anchor-container{
+    padding:3%;
+    }
+    
+    .anchor-content{
+    display: flex;
+    padding: 2% 15%;
+    justify-content: space-between;
+    }
+    
+    .anchor-img{
+    box-sizing: border-box;
+    justify-content: right;
+    padding:7px;
+    margin:5px;
+    }
+    .anchor-text{
+    float:left;
+    box-sizing: border-box;
+    width:65%;
+    font-family: "Segoe UI",Arial,sans-serif;
+    }    
+    .text-grey{
+    color: gray;
+    }
+
+           
+
+    .cup-container{
+        padding:3%;
+        background-color:#f1f1f1;
+        }
+        
+        .cup-content{
+        display: flex;
+        padding: 2% 15%;
+        justify-content: space-between;
+        }
+        
+        .cup-img{
+        box-sizing: border-box;
+        justify-content:left;
+        padding:7px;
+        margin:5px;
+        }
+        .cup-text{
+        float:left;
+        box-sizing: border-box;
+        width:65%;
+        font-family: "Segoe UI",Arial,sans-serif;
+        }    
+        .grey{
+        color: gray;
+        }
+
+
+.fotter-container{
+background-color:rgb(95, 92, 92);
+padding: 4%;
+font-family: "Segoe UI",Arial,sans-serif;
+        }
+    
+.fotter-text{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+.end{
+    padding: 4%;
+    font-family: "Segoe UI",Arial,sans-serif;
+            }
+        
+    .end-p{
+        text-align: center;
+        color: #030303;
+        font-size: 16px;
+    }

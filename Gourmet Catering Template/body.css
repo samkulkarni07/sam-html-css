@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top-nav{
+    padding: 1px;
+    margin: 13px;
+    display:flex;
+    justify-content: space-between;
+    }
+
+    .top-nav a{
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 17px;
+        color:rgb(0, 0, 0);
+        
+    }
+    
+    .top-nav-right{
+        justify-content:left;
+        word-spacing: 15px;
+    }
+
+    .text-over-img{
+        position: relative;
+        display: flex;
+    }
+    .text-over-img p{
+        position: absolute;
+        bottom: 12px;
+        left: 20px;
+        font-size: 35px;
+        color: #c0c0c0;
+    }
+
+    a:hover{
+        background-color:rgb(199, 196, 196);
+    }
+
+    .contaner-all{
+    width: 70%;
+    margin:auto;
+    padding: 4%;
+}
+
+#about{
+    display: table;
+    clear:both;
+    margin-bottom: 7%;
+}
+.dish-img{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px 20px;
+}
+.text{
+    box-sizing: border-box;
+    width:49%;
+    float: left;
+    padding: 10px 20px;
+    font-size: 16px;    
+}
+mark{
+    background-color: rgb(199, 196, 196);
+}
+#grey{
+    color: gray;
+}
+
+#menu{
+    display: table;
+    clear:both;
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+hr{
+    opacity: 0.2;
+    color: gray;
+}
+.veg-img{
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+#left-text{
+    box-sizing: border-box;
+    width:49%;
+    float:right;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+#left-text p{
+    color: gray;
+}
+.color{
+    color:rgb(63, 135, 138);
+}
+
+#contact{
+   padding-top: 6%;
+}
+#contact input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 15px; 
+    padding: 3%;
+    margin-bottom:4%;
+    padding: 2%;
+}
+button{
+    font-family: sans-serif;
+    padding: 10px;
+}
+button:hover{
+    background-color:rgb(199, 196, 196);
+}
+#footer{
+    background-color: rgb(199, 196, 196);
+    margin: 0%;
+    padding: 3%;
+    text-align: center;
+}
+#footer a{
+    color: black;
+}

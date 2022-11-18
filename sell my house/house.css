@@ -1,0 +1,149 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+ul{
+  margin: 10px;
+  padding: 25px;
+}
+li {
+  float:left;
+  list-style-type: none;
+}
+
+li a{
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 80px;
+}
+
+.nav-part:hover{
+color:#333;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  min-width:10%;
+  background-color: rgb(165, 183, 184);
+  opacity: 0.5;
+}
+
+.content a {
+  color:black;
+  display: block;
+  text-align:center;
+}
+
+
+li a:hover {
+  box-shadow: -4px 4px 30px -5px rgba(0,0,0,0.75);
+}
+
+.drop-down:hover .content {
+  display: block;
+}
+
+.grid-box{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding:5px;
+}
+.gridbox {
+  background-color: rgb(177, 173, 173);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  text-align: center;
+}
+.gridbox :hover{
+  opacity: 0.7;
+}
+
+.box{
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+}
+.img-box{
+margin-left: 25px;
+padding: 10px;
+}
+
+.text-box{
+color: rgb(201, 197, 197);
+justify-content:left;
+padding: 15px;
+width: 300px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-shadow: -4px 4px 30px -5px rgba(141, 135, 135, 0.75);
+}
+
+button{
+  color: aliceblue;
+  padding:10px;
+  margin: 20px;
+  border: none;
+}
+button:hover{
+box-shadow: -4px 4px 30px -5px rgba(0,0,0,0.75);
+color: rgb(241, 54, 54);
+background-color: black;
+border-radius: 20%;
+}
+
+
+.boxtwo{
+text-align: center;
+margin-top: 40px;
+display: flex;
+margin-left: 20%;
+}
+
+.textbox{ 
+color: rgb(201, 197, 197);
+width: 300px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-shadow: -4px 4px 30px -5px rgba(141, 135, 135, 0.75);
+}
+
+.fotter{
+  padding:3%;
+  text-align: center;
+  position: relative;
+}
+
+.icon{
+position: absolute;
+width: 50px;
+text-align: center;
+top: 8%;
+opacity: 0.5;
+}
+
+form{
+  background-color: #333;
+  color: #333;
+  opacity: 0.5;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  padding: 2%;
+}
+
+input{
+text-align: center;
+padding: 3px;
+width: 100%;
+border: none;
+font-size: 25px;
+margin-bottom:6%;
+}
+form:hover{
+  background-color: rgb(202, 203, 204);
+}
